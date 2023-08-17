@@ -52,3 +52,7 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+vim.keymap.set("n", "<leader>m", "<cmd>set mouse=v<CR>")
+vim.keymap.set("n", "<leader>mm", "<cmd>set mouse=n<CR>")
+vim.keymap.set("n", "<leader>a", ":%w !pbcopy<CR>")
+vim.keymap.set("n", "<leader>aa", ":r !pbpaste<CR>")
