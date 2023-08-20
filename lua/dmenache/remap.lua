@@ -113,3 +113,9 @@ vim.keymap.set("n", "<leader>m", "<cmd>set mouse=v<CR>")
 vim.keymap.set("n", "<leader>mm", "<cmd>set mouse=n<CR>")
 vim.keymap.set("n", "<leader>yyy", ":%w !pbcopy<CR>")
 vim.keymap.set("n", "<leader>ppp", ":r !pbpaste<CR>")
+
+vim.keymap.set("n", "<leader>ga", "<cmd>G add .<CR>")
+vim.keymap.set("n", "<leader>gc", "<cmd>G commit<CR>")
+vim.keymap.set("n", "<leader>gp", "<cmd>G push<CR>")
+vim.keymap.set("n", "<leader>gpu", "<cmd>G pull<CR>")
+
