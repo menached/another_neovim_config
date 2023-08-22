@@ -150,6 +150,16 @@ _G.packer_plugins = {
     path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tmux-sensible"] = {
+    loaded = true,
+    path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/tmux-sensible",
+    url = "https://github.com/tmux-plugins/tmux-sensible"
+  },
+  tpm = {
+    loaded = true,
+    path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/tpm",
+    url = "https://github.com/tmux-plugins/tpm"
+  },
   undotree = {
     loaded = true,
     path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/undotree",
@@ -159,6 +169,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 

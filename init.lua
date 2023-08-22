@@ -1,3 +1,4 @@
+vim.g.neovim_tmux_runner = 1
 require("dmenache")
 print("DevOps & Platforms")
 if vim.fn.has('persistent_undo') == 1 then
@@ -10,3 +11,5 @@ if vim.fn.has('persistent_undo') == 1 then
     vim.o.undodir = target_path
     vim.cmd('set undofile')
 end
+
+
