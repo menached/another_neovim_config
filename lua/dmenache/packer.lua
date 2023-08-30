@@ -23,11 +23,13 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/playground')
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('theprimeagen/harpoon')
+  use('pseewald/vim-anyfold')
   use('mbbill/undotree')
   use('preservim/nerdcommenter')
   use('tmux-plugins/tpm')
   use('tmux-plugins/tmux-sensible')
   use('tpope/vim-fugitive')
+  use('mracos/mermaid.vim')
   use('christoomey/vim-tmux-navigator')
   use {
 	  'VonHeikemen/lsp-zero.nvim',

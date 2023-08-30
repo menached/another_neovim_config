@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["mermaid.vim"] = {
+    loaded = true,
+    path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/mermaid.vim",
+    url = "https://github.com/mracos/mermaid.vim"
+  },
   nerdcommenter = {
     loaded = true,
     path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/nerdcommenter",
@@ -164,6 +169,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-anyfold"] = {
+    loaded = true,
+    path = "/Users/dmenache/.local/share/nvim/site/pack/packer/start/vim-anyfold",
+    url = "https://github.com/pseewald/vim-anyfold"
   },
   ["vim-fugitive"] = {
     loaded = true,
