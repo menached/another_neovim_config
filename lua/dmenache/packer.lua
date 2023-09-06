@@ -12,7 +12,6 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
-
   use({
 	  'rose-pine/neovim',
 	  as = 'rose-pine',
@@ -29,11 +28,11 @@ return require('packer').startup(function(use)
   use('tmux-plugins/tpm')
   use('tmux-plugins/tmux-sensible')
   use('tpope/vim-fugitive')
-  use('mracos/mermaid.vim')
+  use('BurntSushi/ripgrep')
   use('christoomey/vim-tmux-navigator')
   use {
 	  'VonHeikemen/lsp-zero.nvim',
-	  branch = 'v2.x',
+	  branch = 'v1.x',
 	  requires = {
 		  -- LSP Support
 		  {'neovim/nvim-lspconfig'},             -- Required
@@ -43,7 +42,14 @@ return require('packer').startup(function(use)
 		  -- Autocompletion
 		  {'hrsh7th/nvim-cmp'},     -- Required
 		  {'hrsh7th/cmp-nvim-lsp'}, -- Required
+          {'hrsh7th/cmp-buffer'},
+          {'hrsh7th/cmp-path'},
+          {'saadparwaiz1/cmp_luasnip'},
+
+          -- Snippets
 		  {'L3MON4D3/LuaSnip'},     -- Required
+          {'rafamadriz/friendly-snippets'},
 	  }
   }
+
 end)
